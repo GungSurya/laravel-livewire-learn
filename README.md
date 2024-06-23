@@ -72,3 +72,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## to show public livewire or other artisan into views because default livewire use tailwind setting to bootsrap in terminal
 
 "php artisan vendor:publish"
+
+##
+
+// create seeder pakai class seeder
+php artisan make:seeder UserSeeder
+// execute untuk menampilkan seeder
+php artisan db:send --class=UserSeeder

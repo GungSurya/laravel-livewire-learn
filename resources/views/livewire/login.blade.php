@@ -12,7 +12,7 @@
                 </div>
                 <div class="mb-4">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" wire:model="form.password" name="password" id="password" class="form-control">
+                    <input type="password" wire:model="form.password" name="password" id="password" class="form-control" autocomplete="off">
                     @error('form.password')
                         <small class="d-block mt-1 text-danger">{{ $message }}</small>
                     @enderror

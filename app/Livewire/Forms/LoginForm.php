@@ -9,7 +9,7 @@ use Livewire\Form;
 
 class LoginForm extends Form
 {
-    #[Rule('required', 'email')]
+    #[Rule('required')]
     public string $email = '';
 
     #[Rule('required')]
